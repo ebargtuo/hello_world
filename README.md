@@ -15,6 +15,7 @@ Included examples:
 * PHP
 
 	* Behat - a BDD testing framework for PHP
+	* Slim - a PHP micro framework (API example)
 
 ## Licence ##
 
