@@ -3,4 +3,4 @@ php/*/vendor
 php/*/bin
 tests/behat/vendor
 tests/behat/bin
-
+Gemfile.lock
