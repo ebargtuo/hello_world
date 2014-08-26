@@ -17,6 +17,9 @@ Included examples:
 	* Behat - a BDD testing framework for PHP
 	* Slim - a PHP micro framework (API example)
 
+* Ruby
+	* Sinatra - a light-weight web framework (API example)
+
 ## Licence ##
 
 Copyright 2014 ebargtuo. Released under the MIT license.
