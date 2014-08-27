@@ -20,7 +20,7 @@ Use Bundler to install the project dependencies. Assuming it is
 availble in the `PATH` with the name `bundle`,
 in the project directory, run:
 
-	bundle install
+	bundle install --path vendor/bundle
 	
 ## Usage ##
 

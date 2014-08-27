@@ -1,2 +1,2 @@
 #!/bin/sh
-ruby ./public_html/main.rb
+bundle exec ruby ./public_html/main.rb

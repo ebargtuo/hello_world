@@ -4,3 +4,5 @@ php/*/bin
 tests/behat/vendor
 tests/behat/bin
 Gemfile.lock
+ruby/*/vendor
+ruby/*/.bundle
