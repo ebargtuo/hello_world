@@ -6,3 +6,4 @@ tests/behat/bin
 Gemfile.lock
 ruby/*/vendor
 ruby/*/.bundle
+node/*/node_modules

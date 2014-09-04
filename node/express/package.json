@@ -1,0 +1,11 @@
+{
+  "name": "hello",
+  "description": "Hello world in expressjs",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "express-params": "0.0.3",
+    "string": "~2.0.0"
+  }
+}
