@@ -59,6 +59,7 @@ class FeatureContext extends BehatContext
     public function iShouldGetMessage($message)
     {
         PHPUnit_Framework_Assert::assertEquals(200, $this->response->getStatusCode());
+        PHPUnit_Framework_Assert::assertStringStartsWith("application/json", $this->response->getHeader('content-type'));
         $body = json_decode($this->response->getBody());
         PHPUnit_Framework_Assert::assertObjectHasAttribute('message', $body);
         PHPUnit_Framework_Assert::assertEquals($message, $body->message);
