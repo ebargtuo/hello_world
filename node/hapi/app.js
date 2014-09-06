@@ -9,7 +9,7 @@ server.route({
     handler: function (request, reply) {
         reply(JSON.stringify({
            'message': 'Hello'
-        }));
+        })).type('application/json');
     }
 });
 
@@ -19,7 +19,7 @@ server.route({
     handler: function (request, reply) {
         reply(JSON.stringify({
            'message': 'Hello ' + S(request.params.name).capitalize()
-        }));
+        })).type('application/json');
     }
 });
 
