@@ -6,12 +6,16 @@ var app = express();
 params.extend(app);
 
 app.get('/hello', function(req, res){
-  res.send('{"message": "Hello"}');
+  res
+    .set('Content-Type', 'application/json')
+    .send('{"message": "Hello"}');
 });
 
 app.get('/hello/:name', function(req, res){
-  res.send(JSON.stringify({
-    "message": "Hello " + S(req.params.name).capitalize()
+  res
+    .set('Content-Type', 'application/json')
+    .send(JSON.stringify({
+      "message": "Hello " + S(req.params.name).capitalize()
   }));
 });
 
