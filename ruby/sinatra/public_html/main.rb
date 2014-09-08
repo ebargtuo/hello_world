@@ -13,6 +13,5 @@ get '/hello' do
 end
 
 get '/hello/:name' do |name|
-    #echo json_encode(array("message" => "Hello " . ucfirst($name)));
     {"message" => "Hello " + name.capitalize}.to_json
 end
