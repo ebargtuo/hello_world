@@ -6,7 +6,7 @@ Simple "Hello World" examples in various technologies.
 ## Description ##
 
 This project aims to provide simple "Hello World" projects as examples
-of how to get started with various tools, language, frameworks, technolgies...
+of how to get started with various tools, language, frameworks, technologies...
 
 See individual project `README`s for details.
 
