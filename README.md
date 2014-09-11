@@ -20,6 +20,10 @@ Included examples:
 * Ruby
 	* Sinatra - a light-weight web framework (API example)
 
+* Node
+	* Expressjs - a minimalist Node.js web framework (API example)
+	* hapijs - another Node.js web framework (API example)
+
 ## Licence ##
 
 Copyright 2014 ebargtuo. Released under the MIT license.
